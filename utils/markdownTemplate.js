@@ -1,28 +1,54 @@
-const markdown = (title, description,installation,usage,contributing,tests) =>{
+const markdown = (
+    title, 
+    description,
+    installation,
+    usageLink,
+    usageName,
+    contributing,
+    tests
+    ,
+    instructions,
+    github,
+    email
+    ) => {
     return    `
-    #${title}
-    
-    ${description}
+${usageLink}
 
-    ## Table of Contents
-    - [Installation](#installation)
-    - [Usage Liscense](#usage-liscense)
-    - [Contribution](#contributing)
-    - [Tests](#tests)
-    
-    ## Installtion
-        \`\`\`bash
-        ${installation}
-        \`\`\`
-    
-    ## Usage Liscense
-        ${usage}
-    
-    ## Contributing
-    ${contributing}
+# ${title}
 
-    ## Tests
-    ${tests}
+${description}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage Liscense](#usage-liscense)
+- [Contribution](#contributing)
+- [Tests](#tests)
+- [Instructions](#instructions)
+- [Questions](#questions)
+
+
+## Installtion
+ 
+    ${installation}        
+
+
+## Usage Liscense
+    ${usageName} License
+    
+
+## Contributing
+${contributing}
+
+## Tests
+${tests}
+
+## InstructionS
+${instructions}
+
+## Questions
+
+### Github: ${github}
+### email: ${email}
     `
 
 }
