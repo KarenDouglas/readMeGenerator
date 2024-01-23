@@ -3,7 +3,7 @@
 # Video Sample
 [Link to Larger Video](./assets/readMeGenerator.mp4)
 
---------------------------------
+
 
 ![](./assets/readMeGenerator.gif)
 
