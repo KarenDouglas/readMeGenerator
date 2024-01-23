@@ -1,11 +1,9 @@
 # readMeGenerator
 
 # Video Sample
-[Link to Larger Video](./assets/readMeGenerator.mp4)
 
+[![Watch the video](https://img.youtube.com/vi/Z9UfDl2z0q4/0.jpg)](https://www.youtube.com/watch?v=Z9UfDl2z0q4)
 
-
-![](./assets/readMeGenerator.gif)
 
 
 ## Built With
