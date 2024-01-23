@@ -1,7 +1,7 @@
 # readMeGenerator
 
 # Video Sample
-![](./assets/TITLE.md%20-%20readMeGenerator%20-%20Visual%20Studio%20Code%202024-01-22%2013-13-02.mov)
+![](./assets/readMeGenerator.gif)
 
 ## Built With
  - JavaScript
