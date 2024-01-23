@@ -1,6 +1,7 @@
 # readMeGenerator
 
-# 09 Node.js Challenge: Professional README Generator
+# Video Sample
+![](assets/readMeGenerator%20-%20Visual%20Studio%20Code%202024-01-22%2021-54-05.mp4)
 
 ## Your Task
 

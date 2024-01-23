@@ -1,3 +1,6 @@
+// this is the readme template 
+// It outputs these user Inputs:
+    // Title,Description,Installation, Usage liscense Badge, Usage License name, Contributing, Test, instructions, github username, email
 const markdown = (
     title, 
     description,
@@ -5,10 +8,10 @@ const markdown = (
     usageLink,
     usageName,
     contributing,
-    tests
-    ,
+    tests,
     instructions,
     github,
+    gLink,
     email
     ) => {
     return    `
@@ -42,17 +45,17 @@ ${contributing}
 ## Tests
 ${tests}
 
-## InstructionS
+## Instructions
 ${instructions}
 
 ## Questions
 
-### Github: ${github}
+### Github: [ ${github}](${gLink})
 ### email: ${email}
     `
 
 }
-// console.log(markdown('title','description','installation','usage',"contributing",'test'))
+
 module.exports= {
     markdown
 }
